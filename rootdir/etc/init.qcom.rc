@@ -36,7 +36,7 @@ on early-init
 
 on init
 
-    export LD_SHIM_LIBS "/system/lib/hw/camera.msm8952.so|libcamera_shim.so:/system/bin/mm-qcamera-daemon|libcamera_shim.so:/system/vendor/lib/libmmcamera2_stats_modules.so|libcamera_shim.so"
+    export LD_SHIM_LIBS "/system/lib/hw/camera.msm8952.so|libcamera_shim.so:/system/bin/mm-qcamera-daemon|libcamera_shim.so:/system/vendor/lib/libmmcamera2_stats_modules.so|libcamera_shim.so:/system/vendor/lib64/libdpmframework.so|libshim_parcel.so:/system/vendor/lib64/libcne.so|libshim_parcel.so"
 	
     start qfintverify
     # Set permissions for persist partition

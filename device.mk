@@ -162,6 +162,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_shim
 
+# RIL
+PRODUCT_PACKAGES += \
+    libshim_parcel
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8952
