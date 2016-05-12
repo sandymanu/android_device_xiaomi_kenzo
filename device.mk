@@ -284,6 +284,7 @@ PRODUCT_PACKAGES += \
     ebtables \
     ethertypes \
     curl \
+    libcurl \
     libnl_2 \
     libbson \
     libcnefeatureconfig \
