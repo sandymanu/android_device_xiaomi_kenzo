@@ -70,6 +70,7 @@ voice.record.conc.disabled=false
 voice.voip.conc.disabled=false
 #Decides the audio fallback path during voice call, deep-buffer and fast are the two allowed fallback paths now.
 voice.conc.fallbackpath=deep-buffer
+audio.deep_buffer.media=true
 
 #
 # system props for the data modules
