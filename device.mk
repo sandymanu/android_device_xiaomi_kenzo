@@ -171,6 +171,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8952 \
     memtrack.msm8952 \
     liboverlay
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.msm8952
 	
 # Camera
 PRODUCT_PACKAGES += \
